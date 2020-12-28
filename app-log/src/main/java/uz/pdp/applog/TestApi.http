@@ -1,0 +1,19 @@
+PUT http://localhost/api/payment/f9d4e496-2e87-436a-8386-76992713dae8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MDkyNDcwODAsImlhdCI6MTYwOTE2MDY4MCwic3ViIjoiYzMwNDNiNjUtYTIxNC00YmM3LWI5ZmQtMzM5OTMzZjAxNDc4In0.t6NmD0xqjkJmEBMLOJOhRYcnXk61J6kNZ9gMw7OrCzSMfbWDkIsm4d1kw79IpOYgmudzsXbJm9-msLvjxe7xNA
+
+{"paySum": 1208005,
+"comment": "First oka 1208780"}
+
+###
+POST http://localhost/api/ketmon
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MDkyNDcwODAsImlhdCI6MTYwOTE2MDY4MCwic3ViIjoiYzMwNDNiNjUtYTIxNC00YmM3LWI5ZmQtMzM5OTMzZjAxNDc4In0.t6NmD0xqjkJmEBMLOJOhRYcnXk61J6kNZ9gMw7OrCzSMfbWDkIsm4d1kw79IpOYgmudzsXbJm9-msLvjxe7xNA
+
+{"firstName": "Sirojiddin",
+"lastName": "Saidov",
+"username": "sirojiddin",
+"password": "root123"}
+
+###
+
